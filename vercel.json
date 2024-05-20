@@ -1,15 +1,15 @@
-{
+ {
   "version": 2,
   "builds": [
     {
-      "src": "./hello-world.js",
+      "src": "./hello-world.js.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/"
+      "destination": "/"
     }
   ]
 }
